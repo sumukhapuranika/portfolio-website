@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Nav from '../components/Nav.astro';
+import Hero from '../components/Hero';
+import Proof from '../components/Proof';
+import Stack from '../components/Stack';
+import Projects from '../components/Projects';
+import Log from '../components/Log';
+import Connect from '../components/Connect';
+---
+
+<BaseLayout>
+  <Nav />
+  <main>
+    <Hero client:load />
+    <Proof client:visible />
+    <Stack client:visible />
+    <Projects client:visible />
+    <Log client:visible />
+    <Connect client:visible />
+  </main>
+</BaseLayout>
