@@ -2,6 +2,10 @@
 
 Minimal dark-mode developer portfolio built for a Software Engineer focused on data pipelines, APIs, backend systems, and data engineering opportunities.
 
+## Build Note
+
+This portfolio was built through an AI-assisted, vibe-coding workflow: the design direction, content, and engineering decisions were guided by me, while AI was used as a coding collaborator to scaffold, refine, and polish the implementation.
+
 ## Tech Stack
 
 - Astro
